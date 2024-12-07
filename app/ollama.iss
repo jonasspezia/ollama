@@ -1,19 +1,19 @@
-; Inno Setup Installer for Ollama
+; Inno Setup Installer for DoctorAI
 ;
 ; To build the installer use the build script invoked from the top of the source tree
 ; 
 ; powershell -ExecutionPolicy Bypass -File .\scripts\build_windows.ps
 
 
-#define MyAppName "Ollama"
+#define MyAppName "DoctorAI"
 #if GetEnv("PKG_VERSION") != ""
   #define MyAppVersion GetEnv("PKG_VERSION")
 #else
   #define MyAppVersion "0.0.0"
 #endif
-#define MyAppPublisher "Ollama"
-#define MyAppURL "https://ollama.com/"
-#define MyAppExeName "ollama app.exe"
+#define MyAppPublisher "DoctorAI"
+#define MyAppURL "https://teledocmedical.com/"
+#define MyAppExeName "doctorai app.exe"
 #define MyIcon ".\assets\app.ico"
 
 [Setup]
